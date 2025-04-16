@@ -1,0 +1,29 @@
+name: DeathLX
+version: 1.0
+main: com.deathlx.deathlx
+api-version: 1.20
+author: LaerinX
+site: https://discord.gg/ZeM9MmahCs
+description: Plugin que bane jogadores quando eles morrem
+commands:
+  deathlx:
+    description: Comandos principais do plugin DeathLX
+    usage: /<command> [active|revive|list]
+    aliases: [dl]
+permissions:
+  deathlx.active.use:
+    description: Permite ativar/desativar o plugin
+    default: op
+  deathlx.revive.use:
+    description: Permite reviver jogadores banidos
+    default: op
+  deathlx.list.use:
+    description: Permite listar jogadores banidos
+    default: op
+  deathlx.*:
+    description: Todas as permissões do plugin DeathLX
+    default: op
+    children:
+      deathlx.active.use: true
+      deathlx.revive.use: true
+      deathlx.list.use: true

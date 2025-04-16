@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="deathlx:jar">
+    <output-path>$USER_HOME$/Favorites/plugins decopileds</output-path>
+    <root id="archive" name="deathlx.jar">
+      <element id="module-output" name="deathlx" />
+    </root>
+  </artifact>
+</component>

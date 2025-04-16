@@ -1,0 +1,18 @@
+# Configuração do plugin DeathLX
+# Este arquivo contém as configurações principais do plugin
+
+# Ativa ou desativa o plugin na inicialização (true/false)
+active: false
+
+# Configurações de mensagens
+messages:
+  ban-message: "Você foi banido por morte!"
+  kick-message: "Você morreu e foi banido pelo plugin DeathLX!"
+  no-permission: "Você não tem permissão para usar este comando!"
+  player-not-found: "Jogador não foi encontrado na lista de banidos!"
+  plugin-activated: "Plugin DeathLX ativado com sucesso!"
+  plugin-deactivated: "Plugin DeathLX desativado com sucesso!"
+  revive-success: "Jogador {player} foi revivido e desbanido!"
+
+# Debug mode (para depuração do plugin)
+debug: false
